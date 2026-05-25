@@ -1,0 +1,3 @@
+# SET SWAPPINESS TO 0
+=====================
+vm.swappiness=0
