@@ -1,2 +1,3 @@
 # XRPL-Documentation
-1. Amendment Proposal Template
+Templates
+1. Amendment Proposal
