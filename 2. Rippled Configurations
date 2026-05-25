@@ -6,6 +6,8 @@
 
 # SET UNL PUBLISHERS TO RIPPLE & XRPLF VIA VALIDATORS.TXT
 =========================================================
+source: https://github.com/XRPLF/rippled/discussions/5463
+
 [validator_list_sites]
 https://vl.ripple.com
 https://unl.xrplf.org
