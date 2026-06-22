@@ -22,3 +22,18 @@ vm.swappiness=0
 # FIND YOUR UBUNTU VERSION
 ==========================
 lsb_release -a
+
+# BACK UP FILES
+===============
+
+1. How to locate drives
+lsblk
+
+2. Make a diretory & mount
+sudo mkdir -p /mnt/usb
+sudo mount /dev/sdb1 /mnt/usb
+
+3. Look up mounted location
+df -h
+
+
