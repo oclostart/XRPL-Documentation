@@ -36,4 +36,12 @@ sudo mount /dev/sdb1 /mnt/usb
 3. Look up mounted location
 df -h
 
+4. Transfer file
+cp /opt/ripple/etc/rippled.cfg /mnt/usb/
+cp /opt/ripple/etc/validators.txt /mnt/usb/
+cp /var/lib/rippled/db/wallet.db /mnt/usb/
+sudo mv /home/sysop/.ripple/validator-keys.json /mnt/usb/
+
+5. Confirm Transfer
+ls -l /mnt/usb
 
